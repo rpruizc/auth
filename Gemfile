@@ -47,7 +47,7 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   # Use Puma as the app server
-  gem 'puma', '~> 3.11'
+  # gem 'puma', '~> 3.11'
 end
 
 group :test do
@@ -60,7 +60,6 @@ end
 
 group :production do
   gem 'pg'
-  gem "passenger"
 end
 
 
@@ -70,3 +69,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 gem 'mini_magick', '~> 4.8'
 gem 'devise'
+gem "passenger"
