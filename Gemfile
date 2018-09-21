@@ -70,3 +70,6 @@ gem 'carrierwave'
 gem 'mini_magick', '~> 4.8'
 gem 'devise'
 gem "passenger"
+
+# Active Admin
+gem 'activeadmin'
